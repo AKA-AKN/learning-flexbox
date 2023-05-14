@@ -166,3 +166,27 @@ button:hover{
     position: relative;
     bottom: 0.4rem;
 }
+@media(max-width:375px){
+    .bigWrapper{
+        display: inline;
+    }
+    .wrapper{
+        display: block;
+        background-color:linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%)) ;
+        height: 60%;
+        width: 100%;
+    }
+    .result-section{
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        width: 100%;
+    }
+    .summary-section{
+        width: 100%;
+    }
+
+    button:hover{
+        bottom: 0;
+        border: none;
+    }
+}
